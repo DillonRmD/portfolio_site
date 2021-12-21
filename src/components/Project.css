@@ -1,0 +1,37 @@
+.Project{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+}
+
+.Project-entry{
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    font-size: 32px;
+    text-align: center;
+    font-family: "Raleway";
+    position: relative;
+    text-align: center;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Project-title {
+    color: rgb(39, 223, 196);
+    font-size: 14px;
+    font-family: "Raleway";
+    margin-top: 100px;
+}
+
+.Project-desc {
+    color: black;
+    font-size: 20px;
+    font-family: "Nunito";
+
+}

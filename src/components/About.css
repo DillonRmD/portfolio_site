@@ -1,0 +1,41 @@
+.About{
+    display: flex;
+    background-image: url(https://i.gifer.com/Ozp.gif);
+    background-size: 150px 1000px;
+}
+
+.About-profile{
+    position: absolute;
+    margin-left: 48%;
+    margin-right: 50%;
+    margin-top: 0;
+    margin-bottom: 100px;
+    width: 100%;
+    display:block;
+}
+
+.About-bio{
+    margin-top: 50px;
+    margin-bottom: 200px;
+    color:white;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    font-size: 22px;
+    font-family: "Nunito";
+}
+
+.About-skills{
+    margin-top: 50px;
+    margin-bottom: 200px;
+    color:white;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    font-size: 22px;
+    font-family: "Nunito";
+}
