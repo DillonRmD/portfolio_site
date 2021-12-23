@@ -8,39 +8,39 @@ function Project() {
       name: "Dillon's Tool Box (dtb)",
       description:
         "A collection of single C/C++ header files to simplify different functionality in the C/C++ language",
-      image: "./cplusplus-original.svg",
+      image: "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/cplusplus/cplusplus-original.svg",
       link: "https://github.com/DillonRmD/dtb",
     },
     {
       name: "Elusive Rabbit",
       description:
         "A simulation and algorithm application to find an elusive rabbit that hops from hole to hole.",
-      image: "./python-original.svg",
+      image: "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/python/python-original.svg",
       link: "https://github.com/DillonRmD/ElusiveRabbit",
     },
     {
       name: "Ray Tracer",
       description:
         "Ray tracer technology written in C/C++ derived from the well-known book: RayTracing In One Weekend by Peter Shirley",
-      image: "./cplusplus-original.svg",
+      image: "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/cplusplus/cplusplus-original.svg",
       link: "https://github.com/DillonRmD/RayTracer",
     },
     {
         name: "Visual Algorithms",
         description: "Web based ReactJS application that dynamically visualizes a variety of sorting algorithms",
-        image: "./react-original.svg",
+        image: "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/react/react-original.svg",
         link: "https://github.com/DillonRmD/Visual-Algorithms"
     },
     {
       name: "Software Renderer",
       description: "Basic 2D software renderer written for the win32 platform layer in C/C++",
-      image: "./cplusplus-original.svg",
+      image: "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/cplusplus/cplusplus-original.svg",
       link: "https://github.com/DillonRmD/SoftwareRenderer",
     },
     {
         name: "Literally Just A Space Game With Cards",
         description: "A Unity 2D, group, game project that features dynamic card playing in a vast universe just waiting to be conquered!",
-        image: "./unity-original.svg",
+        image: "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/unity/unity-original.svg",
         link: "https://github.com/aking618/LJSGC",
     },
 
