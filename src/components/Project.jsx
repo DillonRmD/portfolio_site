@@ -53,6 +53,12 @@ function Project() {
           <h1>My Projects</h1>
         </div>
 
+        <div class = "Project-disclaimer">
+          <h1> Below are just some of my highlighted projects! </h1>
+          <h1> Feel free to to check out the rest of my projects by clicking below!</h1>
+          <h1><a href="https://github.com/DillonRmD/"> My super epic github profile</a></h1>
+        </div>
+
         <div class="Project-entry">
           {projects.map((project) => (
             <div>
