@@ -3,7 +3,7 @@ import ReactRoundedImage from "react-rounded-image";
 import MyProfilePic from "./../images/profile.png";
 import Grid from "@mui/material/Grid";
 
-function About() {
+const About = () => {
   const skills = [
     {
       name: "C",
@@ -11,7 +11,7 @@ function About() {
         "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/c/c-original.svg",
     },
     {
-      name: "CPlusPlus",
+      name: "C++",
       image:
         "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/cplusplus/cplusplus-original.svg",
     },
@@ -36,12 +36,12 @@ function About() {
         "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/java/java-plain.svg",
     },
     {
-      name: "CSharp",
+      name: "C#",
       image:
         "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/csharp/csharp-original.svg",
     },
     {
-      name: "Javascript",
+      name: "JavaScript",
       image:
         "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/javascript/javascript-plain.svg",
     },
@@ -55,6 +55,27 @@ function About() {
       image:
         "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/css3/css3-original.svg",
     },
+    {
+      name: "Visual Studio",
+      image:
+        "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/visualstudio/visualstudio-plain.svg",
+    },
+    {
+      name: "VS Code",
+      image:
+        "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/vscode/vscode-original.svg"
+    },
+    {
+      name: "Tensorflow",
+      image:
+        "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/tensorflow/tensorflow-original.svg"
+    },
+    {
+      name: "SQL",
+      image:
+        "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/mysql/mysql-original.svg"
+    },
+    
   ];
 
   return (
@@ -65,29 +86,6 @@ function About() {
         backgroundSize: "100% 100%",
       }}
     >
-      <Grid
-        spacing={10}
-        direction="row"
-        justifyContent="center"
-        alignItems="flex-start"
-      >
-        <div
-          style={{
-            color: "white",
-            textAlign: "center",
-            fontsize: "22px",
-            fontFamily: "Nunito",
-          }}
-        >
-          {skills.map((skill) => (
-            <div>
-              <img alt="image" src={skill.image} width="40" height="40" />
-              <p>{skill.name}</p>
-            </div>
-          ))}
-        </div>
-      </Grid>
-
       <Grid
         container
         direction="column"
@@ -133,8 +131,30 @@ function About() {
           </p>
           <p style={{ fontWeight: "bold" }}>Expected graduation date:</p>
           <p>December 2022!</p>
-          
+
+          <p style={{color:"white", fontWeight:"bold", textAlign:"center", fontSize:"22px", fontFamily:"Nunito"}}>Skills</p>
         </div>
+        <Grid
+        container
+        spacing={0}
+        direction="row"
+        justifyContent="space-between"
+        alignItems="center">
+
+          {skills.map((skill) => (
+            <div
+              style={{
+                color: "white",
+                textAlign: "center",
+                fontsize: "8px",
+                fontFamily: "Nunito",
+              }}
+            >
+              <img alt="image" src={skill.image} width="40" height="40" />
+              <p>{skill.name}</p>
+            </div>
+          ))}
+        </Grid>
       </Grid>
     </div>
   );
