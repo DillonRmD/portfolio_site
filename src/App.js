@@ -13,6 +13,7 @@ function App() {
       </style>
       <About />
       <Project />
+      <Contact />
     </div>
   );
 }
