@@ -68,7 +68,7 @@ const Contact = () => {
               }}
             >
               <a href={method.link}>
-                <img alt="image" src={method.image} width="40" height="40" />
+                <img alt={method.name} src={method.image} width="40" height="40" />
               </a>
               <p style={{ fontWeight: "bold" }}>{method.name}</p>
             </div>

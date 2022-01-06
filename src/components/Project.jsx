@@ -67,7 +67,7 @@ function Project() {
                   <h1>
                     {project.name}
                     <img
-                      alt="image"
+                      alt={project.name}
                       src={project.image}
                       width="40"
                       height="40"

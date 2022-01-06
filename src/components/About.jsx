@@ -2,7 +2,7 @@ import React from "react";
 import ReactRoundedImage from "react-rounded-image";
 import MyProfilePic from "./../images/profile.png";
 import Grid from "@mui/material/Grid";
-import { languages, databases, APIs, tools } from "./Skills";
+import { languages, APIs, tools } from "./Skills";
 
 const About = () => {
   return (
@@ -118,7 +118,7 @@ const About = () => {
                 fontFamily: "Nunito",
               }}
             >
-              <img alt="image" src={lang.image} width="40" height="40" />
+              <img alt={lang.name} src={lang.image} width="40" height="40" />
               <p>{lang.name}</p>
             </div>
           ))}
@@ -150,7 +150,7 @@ const About = () => {
                 fontFamily: "Nunito",
               }}
             >
-              <img alt="image" src={api.image} width="40" height="40" />
+              <img alt={api.name} src={api.image} width="40" height="40" />
               <p>{api.name}</p>
             </div>
           ))}
@@ -182,7 +182,7 @@ const About = () => {
                 fontFamily: "Nunito",
               }}
             >
-              <img alt="image" src={tool.image} width="40" height="40" />
+              <img alt={tool.name} src={tool.image} width="40" height="40" />
               <p>{tool.name}</p>
             </div>
           ))}
