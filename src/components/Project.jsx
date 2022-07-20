@@ -19,16 +19,9 @@ function Project() {
       link: "https://github.com/DillonRmD/ElusiveRabbit",
     },
     {
-      name: "Ray Tracer",
-      description:
-        "Ray tracer technology written in C/C++ derived from the well-known book: RayTracing In One Weekend by Peter Shirley",
-      image: "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/cplusplus/cplusplus-original.svg",
-      link: "https://github.com/DillonRmD/RayTracer",
-    },
-    {
-        name: "Visual Algorithms",
-        description: "Web based ReactJS application that dynamically visualizes a variety of sorting algorithms",
-        image: "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/react/react-original.svg",
+        name: "Movie Catalog",
+        description: "A WPF and C# desktop application that utilizes a T-SQL database to catalog and rate watched movies",
+        image: "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/csharp/csharp-original.svg",
         link: "https://github.com/DillonRmD/Visual-Algorithms"
     },
     {
@@ -47,7 +40,7 @@ function Project() {
   ];
 
   return (
-    <secton id="Project">
+    <section id="Project">
       <div class="Project">
         <div class="header">
           <h1>My Projects</h1>
@@ -83,7 +76,7 @@ function Project() {
           ))}
         </div>
       </div>
-    </secton>
+    </section>
   );
 }
 
