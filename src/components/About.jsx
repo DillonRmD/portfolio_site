@@ -56,28 +56,15 @@ const About = () => {
             science.
           </p>
           <p style={{ fontSize: "20px" }}>
-            I am super interested in computer hardware and software, physics,
-            and math!
+            I am dedicated to learning everything I can about computers!
           </p>
           <p style={{ fontSize: "20px" }}>
-            I enjoy doing work and research in big data, application
-            performance, backend development, and graphics programming!
-          </p>
-          <p style={{ fontSize: "20px" }}>
-            I currently work in a particle physics research laboratory,
-            utilizing my skills in software to *hopefully* find the existence of
-            new fundamental particles (super exciting and rewarding position) !
-          </p>
-          <p style={{ fontSize: "20px" }}>
-            Right now, in the lab, I am actively working on creating a neural
-            network (with Python3 and Tensorflow) that can use machine-learning
-            to classify different types of particles!
+            I enjoy big data, application performance, backend development, embedded systems, and graphics programming!
           </p>
           <p style={{ marginTop: "5%", fontWeight: "bold" }}>
             Expected graduation date:
           </p>
           <p style={{ fontSize: "20px" }}>December 2022!</p>
-
           <p
             style={{
               color: "white",
