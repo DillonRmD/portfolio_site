@@ -31,7 +31,7 @@ const About = () => {
             Try Clicking My Headshot!
           </p>
 
-          <a href="https://www.linkedin.com/in/dillon-s-williams/" target="_blank">
+          <a href="https://www.linkedin.com/in/dillon-s-williams/" target="_blank" rel="noreferrer">
             <ReactRoundedImage
               image={MyProfilePic}
               roundedColor="white"
