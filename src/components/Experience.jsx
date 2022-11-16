@@ -1,5 +1,4 @@
 import React from "react";
-import { ExpressOriginalWordmark } from "react-devicon";
 import "./Experience.css";
 
 function Experience() {
