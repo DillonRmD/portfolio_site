@@ -41,22 +41,22 @@ function Project() {
 
   return (
     <section id="Project">
-      <div class="Project">
-        <div class="header">
+      <div className="Project">
+        <div className="header">
           <h1>My Projects</h1>
         </div>
 
-        <div class = "Project-disclaimer">
+        <div className= "Project-disclaimer">
           <h1> Below are just some of my highlighted projects! </h1>
           <h1> Feel free to to check out the rest of my projects by clicking below!</h1>
           <h1><a href="https://github.com/DillonRmD/"> My super epic github profile</a></h1>
         </div>
 
-        <div class="Project-entry">
-          {projects.map((project) => (
-            <div>
+        <div className="Project-entry">
+          {projects.map((project, projectIndex) => (
+            <div key = {projectIndex} >
               <a href={project.link} key={project.image}>
-                <div class="Project-title">
+                <div className="Project-title">
                   <h1>
                     {project.name}
                     <img
@@ -69,7 +69,7 @@ function Project() {
                 </div>
               </a>
 
-              <div class="Project-desc">
+              <div className="Project-desc">
                 <p>{project.description}</p>
               </div>
             </div>

@@ -96,8 +96,9 @@ const About = () => {
           justifyContent="space-between"
           alignItems="center"
         >
-          {languages.map((lang) => (
+          {languages.map((lang, langIndex) => (
             <div
+              key={langIndex}
               style={{
                 color: "white",
                 textAlign: "center",
@@ -128,8 +129,9 @@ const About = () => {
           justifyContent="space-between"
           alignItems="center"
         >
-          {APIs.map((api) => (
+          {APIs.map((api, apiIndex) => (
             <div
+              key={apiIndex}
               style={{
                 color: "white",
                 textAlign: "center",
@@ -160,8 +162,9 @@ const About = () => {
           justifyContent="space-between"
           alignItems="center"
         >
-          {tools.map((tool) => (
+          {tools.map((tool, toolIndex) => (
             <div
+              key={toolIndex}
               style={{
                 color: "white",
                 textAlign: "center",

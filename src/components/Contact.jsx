@@ -56,8 +56,9 @@ const Contact = () => {
           padding={5}
           
         >
-          {contactMethods.map((method) => (
+          {contactMethods.map((method, methodIndex) => (
             <div
+              key={methodIndex}
               style={{
                 color: "white",
                 textAlign: "center",

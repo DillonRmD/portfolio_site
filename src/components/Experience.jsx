@@ -26,21 +26,22 @@ function Experience() {
 
   return (
     <div>
-      <div class="header">
+      <div className="header">
         {" "}
         <h1>Relavent Experience</h1>{" "}
       </div>
-      <div class="row">
-        {experiences.map((experience) => (
-          <div class="column">
-            <div class="Experience-card">
-              <div class="Experience-title">
+      <div className="row">
+        {experiences.map((experience, experienceIndex) => (
+          <div key={experienceIndex} 
+            className="column">
+            <div className="Experience-card">
+              <div className="Experience-title">
                 <h1> {experience.title}</h1>
                 <h2>
                   {experience.company}, {experience.date}
                 </h2>
               </div>
-              <div class="Experience-desc">
+              <div className="Experience-desc">
                 <p>{experience.description}</p>
                 <p>{experience.description2}</p>
               </div>
