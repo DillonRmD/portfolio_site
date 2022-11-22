@@ -3,6 +3,7 @@ import ReactRoundedImage from "react-rounded-image";
 import MyProfilePic from "./../images/profile.png";
 import Grid from "@mui/material/Grid";
 import { languages, APIs, tools } from "./Skills";
+import { orange } from "@mui/material/colors";
 
 const About = () => {
   return (
@@ -52,19 +53,18 @@ const About = () => {
         >
           <p style={{ fontWeight: "bold" }}>Hey, my name is Dillon!</p>
           <p style={{ fontSize: "20px" }}>
-            I am a senior at Oklahoma State University studying computer
-            science.
+            Fullstack Software Engineer 
           </p>
           <p style={{ fontSize: "20px" }}>
-            I am dedicated to learning everything I can about computers!
+            Life-long dedication to learning!
           </p>
           <p style={{ fontSize: "20px" }}>
-            I enjoy big data, application performance, backend development, embedded systems, and graphics programming!
+            Specialization in web development, low-level systems, and graphics programming!
           </p>
           <p style={{ marginTop: "5%", fontWeight: "bold" }}>
-            Expected graduation date:
+            Education:
           </p>
-          <p style={{ fontSize: "20px" }}>December 2022!</p>
+          <p style={{ fontSize: "20px", color:"orange"}}>BS in Computer Science from Oklahoma State University!</p>
           <p
             style={{
               color: "white",
@@ -75,7 +75,7 @@ const About = () => {
               marginTop: "5%",
             }}
           >
-            My Skill Set
+            Skill Set
           </p>
         </div>
         <p
