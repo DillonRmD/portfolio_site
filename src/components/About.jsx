@@ -3,7 +3,6 @@ import ReactRoundedImage from "react-rounded-image";
 import MyProfilePic from "./../images/profile.png";
 import Grid from "@mui/material/Grid";
 import { languages, APIs, tools } from "./Skills";
-import { orange } from "@mui/material/colors";
 
 const About = () => {
   return (
