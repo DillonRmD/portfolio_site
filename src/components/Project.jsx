@@ -61,7 +61,7 @@ function Project() {
         <div className="Project-entry">
           {projects.map((project, projectIndex) => (
             <div key = {projectIndex} >
-              <a href={project.link} key={project.image}>
+              <a href={project.link} key={project.image} target="_blank" rel="noreferrer">
                 <div className="Project-title">
                   <h1>
                     {project.name}

@@ -30,13 +30,13 @@ function Experience() {
     ];
 
     return (
-        <div>
+        <div className="section">
             <div className="header">
                 {" "}
                 <h1>Relavent Experience</h1>
             </div>
 
-            <Grid container spacing={2} direction="row" justifyContent="center">
+            <Grid container spacing={2} direction="row" justifyContent="center" className="Experience-card-container">
                 {experiences.map((experience, experienceIndex) => (
                     <Grid item>
                         <Card variant="outlined" className="Experience-card">
@@ -51,9 +51,11 @@ function Experience() {
                                     </h2>
                                 </div>
                                 <div className="Experience-desc">
+                                    <ul>
                                     {experience.descriptions.map((desc, descIndex) => (
-                                        <p>{desc}</p>
+                                        <li>{desc}</li>
                                     ))}
+                                    </ul>
                                 </div>
                             </CardContent>
                         </Card>

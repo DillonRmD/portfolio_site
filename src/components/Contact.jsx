@@ -16,7 +16,7 @@ const Contact = () => {
     },
     {
       name: "LinkedIn - Dillon Williams",
-      link: "https://www.linkedin.com/in/dillon-williams-273000220/",
+      link: "https://www.linkedin.com/in/dillon-s-williams/",
       image:
         "https://icons.iconarchive.com/icons/danleech/simple/1024/linkedin-icon.png",
     },
@@ -68,7 +68,7 @@ const Contact = () => {
                 marginRight:"auto"
               }}
             >
-              <a href={method.link}>
+              <a href={method.link} target="_blank" rel="noreferrer">
                 <img alt={method.name} src={method.image} width="40" height="40" />
               </a>
               <p style={{ fontWeight: "bold" }}>{method.name}</p>
