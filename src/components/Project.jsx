@@ -12,6 +12,12 @@ function Project() {
       link: "https://github.com/DillonRmD/dtb",
     },
     {
+      name: "Conway's Game Of Life",
+      description: "A implementation of Conway's Game Of Life Featuring React and Typescript",
+      image: "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg",
+      link: "https://dw-game-of-life.netlify.app/",
+    },
+    {
       name: "Elusive Rabbit",
       description:
         "A simulation and algorithm application to find an elusive rabbit that hops from hole to hole.",
@@ -32,7 +38,7 @@ function Project() {
     },
     {
         name: "Literally Just A Space Game With Cards",
-        description: "A Unity 2D, group, game project that features dynamic card playing in a vast universe just waiting to be conquered!",
+        description: "A Collaborative Unity 2D, game project that features dynamic card playing in a vast universe just waiting to be conquered!",
         image: "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/unity/unity-original.svg",
         link: "https://github.com/aking618/LJSGC",
     },

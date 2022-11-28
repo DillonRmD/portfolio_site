@@ -2,7 +2,7 @@ import React from "react";
 import ReactRoundedImage from "react-rounded-image";
 import MyProfilePic from "./../images/profile.png";
 import Grid from "@mui/material/Grid";
-import { languages, APIs, tools } from "./Skills";
+import { languages, APIs, tools, databases } from "./Skills";
 
 const About = () => {
   return (
@@ -173,6 +173,39 @@ const About = () => {
             >
               <img alt={tool.name} src={tool.image} width="40" height="40" />
               <p>{tool.name}</p>
+            </div>
+          ))}
+        </Grid>
+        <p
+          style={{
+            color: "white",
+            textAlign: "center",
+            fontSize: "20px",
+            fontFamily: "Nunito",
+          }}
+        >
+          Databases
+        </p>
+        <Grid
+          container
+          spacing={0}
+          padding={2}
+          direction="row"
+          justifyContent="space-between"
+          alignItems="center"
+        >
+          {databases.map((db, dbIndex) => (
+            <div
+              key={dbIndex}
+              style={{
+                color: "white",
+                textAlign: "center",
+                fontsize: "8px",
+                fontFamily: "Nunito",
+              }}
+            >
+              <img alt={db.name} src={db.image} width="40" height="40" />
+              <p>{db.name}</p>
             </div>
           ))}
         </Grid>

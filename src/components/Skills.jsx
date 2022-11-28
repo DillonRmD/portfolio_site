@@ -30,6 +30,11 @@ const languages = [
       "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/javascript/javascript-plain.svg",
   },
   {
+    name: "Typescript",
+    image:
+      "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-original.svg",
+  },
+  {
     name: "HTML",
     image:
       "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/html5/html5-original.svg",
@@ -48,19 +53,9 @@ const APIs = [
       "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/opengl/opengl-original.svg",
   },
   {
-    name: "three.js",
+    name: "WPF",
     image:
-      "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/threejs/threejs-original.svg",
-  },
-  {
-    name: "NumPy",
-    image:
-      "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/numpy/numpy-original.svg",
-  },
-  {
-    name: "Pandas",
-    image:
-      "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg",
+      "https://spin.atomicobject.com/wp-content/uploads/Microsoft_WPF.png",
   },
   {
     name: "Tensorflow",
@@ -81,21 +76,6 @@ const APIs = [
 
 const tools = [
   {
-    name: "Visual Studio",
-    image:
-      "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/visualstudio/visualstudio-plain.svg",
-  },
-  {
-    name: "VS Code",
-    image:
-      "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/vscode/vscode-original.svg",
-  },
-  {
-    name: "GNU C Compiler",
-    image:
-      "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/gcc/gcc-original.svg",
-  },
-  {
     name: "Git",
     image:
       "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/git/git-original.svg",
@@ -106,29 +86,18 @@ const tools = [
       "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/npm/npm-original-wordmark.svg",
   },
   {
-    name: "IntelliJ",
-    image:
-      "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/intellij/intellij-original.svg",
-  },
-  {
-    name: "Jupyter Notebooks",
-    image:
-      "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/jupyter/jupyter-original.svg",
-  },
-  {
-    name: "PyCharm",
-    image:
-      "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pycharm/pycharm-original.svg",
-  },
-  {
     name: "Unity",
     image:
       "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_3de44ba8b1638979671c64379167d0b8/unity.jpeg",
   },
+
+];
+
+const databases = [
   {
-    name: "VImproved",
+    name: "SQLite",
     image:
-      "https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/vim/vim-original.svg",
+      "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/sqlite/sqlite-original.svg",
   },
   {
     name: "MySQL",
@@ -140,9 +109,9 @@ const tools = [
     image:
       "https://www.fileeagle.com/data/2021/05/Microsoft-SQL-Server-Express.png",
   },
-];
-
+]
 
 export { languages };
 export { APIs };
 export { tools };
+export { databases };
