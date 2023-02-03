@@ -1,7 +1,9 @@
-import React from "react";
-import "./Project.css";
+import Navbar from "./Navbar";
+import "./Projects.css";
 
-function Project() {
+
+const Projects = () => {
+
     const projects = [
         {
             name: "Dillon's Tool Box (dtb)",
@@ -55,62 +57,12 @@ function Project() {
         },
     ];
 
-    return (
-        <section id="Project">
-            <div className="Project">
-                <div className="header">
-                    <h1>My Projects</h1>
-                </div>
 
-                <div className="Project-disclaimer">
-                    <h1> Below are just some of my highlighted projects! </h1>
-                    <h1>
-                        {" "}
-                        Feel free to to check out the rest of my projects by
-                        clicking below!
-                    </h1>
-                    <h1>
-                        <a href="https://github.com/DillonRmD/">
-                            {" "}
-                            My super epic github profile
-                        </a>
-                    </h1>
-                </div>
-
-                <div className="Project-entry">
-                    {projects.map((project, projectIndex) => (
-                        <div key={projectIndex}>
-                            <a
-                                href={project.link}
-                                key={project.image}
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                <div className="Project-title">
-                                    <h1>
-                                        {project.name}
-                                        {project.image.map((img, imgIndex) => (
-                                          <img
-                                            alt={project.name}
-                                            src={img}
-                                            width="40"
-                                          height="40"
-                                        />
-                                        ))}
-                                        
-                                    </h1>
-                                </div>
-                            </a>
-
-                            <div className="Project-desc">
-                                <p>{project.description}</p>
-                            </div>
-                        </div>
-                    ))}
-                </div>
-            </div>
-        </section>
+    return(
+        <div className="projects-container">
+            <Navbar pageValue="Projects"/>
+        </div>
     );
-}
+};
 
-export default Project;
+export default Projects;
