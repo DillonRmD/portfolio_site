@@ -6,48 +6,59 @@
     0% {
         opacity: 0;
     }
-
     100% {
         opacity: 1;
     }
 }
 
-
 .about-page-container {
+    padding-top: 3%;
     height: 100vh;
     width: 100%;
     background-color: #32323b;
 }
 
 .about-page-content-container {
+    padding-top: 5%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-left: 5%;
     margin-right: 5%;
 }
 
-.about-bio-container {}
+.about-bio-profile-pic-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
 
-.about-bio-profile-pic-container {}
-
-.about-experience-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
 }
 
-.about-experience-card {
-    background: #333;
-    width: 90vh;
-    border-radius: 10px;
-    padding: 2rem;
+.about-bio-profile-pic-img {
+    max-width: 50%;
+    border: double 4px transparent;
+    border-radius: 75%;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f00,#3020ff);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+
+.about-bio-description {
+    padding-top: 3%;
     color: white;
-    box-shadow: 0 .25rem .25rem rgba(0, 0, 0, 0.2),
-        0 0 1rem rgba(0, 0, 0, 0.2);
-    overflow: hidden;
+    font-family: 'Raleway';
+    font-size: 20px;
+    text-align: center;
 }
 
-.about-experience-card:hover {
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
-    transform: scale(1.01);
+.about-bio-description-content-experiences {
+    list-style-type: none;
+    margin: 0; padding: 0;
+    font-weight: 600;
 }
+
+
+
+
+
